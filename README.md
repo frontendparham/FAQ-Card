@@ -20,7 +20,7 @@ A Responsive FAQ Card
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://frontendparham.github.io/Stats-Preview-Card/)
+- Live Site URL: [GitHub Pages](https://frontendparham.github.io/FAQ-Card/)
 
 ## My process
 
