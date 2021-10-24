@@ -1,12 +1,13 @@
 'use strict';
 
 const questionDiv = document.querySelectorAll('.faq__content__text--question');
+const questionParagraph = document.querySelectorAll('.question');
 const answerDiv = document.querySelectorAll('.faq__content__text--answer');
 const arrowImg = document.querySelectorAll('.arrow');
 
 const makeDefault = function (x) {
   answerDiv[x].classList.add('hidden');
-  questionDiv[x].style.color = 'hsl(237, 12%, 33%, 0.8)';
+  questionParagraph[x].style.color = 'hsl(237, 12%, 33%, 0.8)';
   arrowImg[x].classList.remove('rotate');
 };
 
@@ -22,7 +23,7 @@ for (let i = 0; i < questionDiv.length; i++) {
         makeDefault(k);
       }
     }
-    questionDiv[i].style.color = 'hsl(238, 29%, 16%)';
+    questionParagraph[i].style.color = 'hsl(238, 29%, 16%)';
     answerDiv[i].classList.remove('hidden');
     arrowImg[i].classList.add('rotate');
   });
