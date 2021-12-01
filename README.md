@@ -1,4 +1,4 @@
-# FAQ Card | Frequently Asked Qestions (With JS)
+# FAQ Card
 A Responsive FAQ Card
 
 ## Table of contents
